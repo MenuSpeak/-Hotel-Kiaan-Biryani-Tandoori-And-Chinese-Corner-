@@ -1158,100 +1158,6 @@
     </div>
 
 
-<!-- ================= PAYMENT PENDING SCREEN ================= -->
-<div id="paymentBlock" style="
-position:fixed;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:linear-gradient(135deg,#111,#000,#1a1a1a);
-z-index:999999999;
-display:flex;
-justify-content:center;
-align-items:center;
-padding:20px;
-font-family:Arial,sans-serif;
-">
-
-    <div style="
-    max-width:600px;
-    width:100%;
-    text-align:center;
-    background:rgba(255,255,255,0.06);
-    border:2px solid #FFD700;
-    border-radius:20px;
-    padding:40px 25px;
-    backdrop-filter:blur(10px);
-    box-shadow:0 0 35px rgba(255,215,0,0.35);
-    ">
-
-        <div style="font-size:70px;margin-bottom:15px;">🔒</div>
-
-        <h1 style="
-        color:#FFD700;
-        margin:0;
-        font-size:34px;
-        font-weight:bold;
-        ">
-            Payment Pending
-        </h1>
-
-        <p style="
-        color:#ffffff;
-        font-size:20px;
-        margin-top:25px;
-        line-height:1.7;
-        ">
-            Your Digital Menu is temporarily unavailable because the
-            remaining payment has not been completed.
-        </p>
-
-        <p style="
-        color:#dddddd;
-        font-size:18px;
-        margin-top:15px;
-        line-height:1.6;
-        ">
-            Please complete the remaining payment to restore full access.
-            Once the payment is confirmed, your Digital Menu will be activated immediately.
-        </p>
-
-        <div style="
-        margin-top:35px;
-        display:inline-block;
-        background:#FFD700;
-        color:#000;
-        padding:16px 28px;
-        border-radius:12px;
-        font-size:22px;
-        font-weight:bold;
-        ">
-            📞 MenuSpeak : 9284969878
-        </div>
-
-        <p style="
-        margin-top:30px;
-        color:#999;
-        font-size:15px;
-        ">
-            Thank you for your cooperation.
-        </p>
-
-    </div>
-
-</div>
-<!-- ================= END PAYMENT SCREEN ================= -->
-
-
-
-
-
-
-
-
-
-
 
 
         
@@ -1356,27 +1262,27 @@ font-family:Arial,sans-serif;
         const data = [
 
 
-  {"id": 1, "cat": "Starter", "name": "चिकन चिली (हाफ) | Chicken Chilly (Half)", "price": "Rs. 80", "desc": "Chicken Chilly half portion.", "tags": ["Non-Veg", "Starter", "Chinese", "Half"], "img": "img/chicken_chilly.jpeg"},
-  {"id": 2, "cat": "Starter", "name": "चिकन चिली (फुल) | Chicken Chilly (Full)", "price": "Rs. 170", "desc": "Chicken Chilly full portion.", "tags": ["Non-Veg", "Starter", "Chinese", "Full"], "img": "img/chicken_chilly.jpeg"},
-  {"id": 3, "cat": "Starter", "name": "चिकन लॉलीपॉप (हाफ) | Chicken Lollipop (Half)", "price": "Rs. 80", "desc": "Chicken Lollipop half portion.", "tags": ["Non-Veg", "Starter", "Half"], "img": "img/chicken_lollipop.jpeg"},
-  {"id": 4, "cat": "Starter", "name": "चिकन लॉलीपॉप (फुल) | Chicken Lollipop (Full)", "price": "Rs. 180", "desc": "Chicken Lollipop full portion.", "tags": ["Non-Veg", "Starter", "Full"], "img": "img/chicken_lollipop.jpeg"},
-  {"id": 5, "cat": "Starter", "name": "चिकन लॉलीपॉप मसाला (हाफ) | Chicken Lollipop Masala (Half)", "price": "Rs. 100", "desc": "Chicken Lollipop Masala half portion.", "tags": ["Non-Veg", "Starter", "Half"], "img": "img/chicken_lollipop_masala.jpeg"},
+  {"id": 1, "cat": "Starter", "name": "चिकन चिली (हाफ) | Chicken Chilly (Half)", "price": "Rs. 120", "desc": "Chicken Chilly half portion.", "tags": ["Non-Veg", "Starter", "Chinese", "Half"], "img": "img/chicken_chilly.jpeg"},
+  {"id": 2, "cat": "Starter", "name": "चिकन चिली (फुल) | Chicken Chilly (Full)", "price": "Rs. 200", "desc": "Chicken Chilly full portion.", "tags": ["Non-Veg", "Starter", "Chinese", "Full"], "img": "img/chicken_chilly.jpeg"},
+  {"id": 3, "cat": "Starter", "name": "चिकन लॉलीपॉप (हाफ) | Chicken Lollipop (Half)", "price": "Rs. 150", "desc": "Chicken Lollipop half portion.", "tags": ["Non-Veg", "Starter", "Half"], "img": "img/chicken_lollipop.jpeg"},
+  {"id": 4, "cat": "Starter", "name": "चिकन लॉलीपॉप (फुल) | Chicken Lollipop (Full)", "price": "Rs. 220", "desc": "Chicken Lollipop full portion.", "tags": ["Non-Veg", "Starter", "Full"], "img": "img/chicken_lollipop.jpeg"},
+  {"id": 5, "cat": "Starter", "name": "चिकन लॉलीपॉप मसाला (हाफ) | Chicken Lollipop Masala (Half)", "price": "Rs. 120", "desc": "Chicken Lollipop Masala half portion.", "tags": ["Non-Veg", "Starter", "Half"], "img": "img/chicken_lollipop_masala.jpeg"},
   {"id": 6, "cat": "Starter", "name": "चिकन लॉलीपॉप मसाला (फुल) | Chicken Lollipop Masala (Full)", "price": "Rs. 200", "desc": "Chicken Lollipop Masala full portion.", "tags": ["Non-Veg", "Starter", "Full"], "img": "img/chicken_lollipop_masala.jpeg"},
-  {"id": 7, "cat": "Starter", "name": "चिकन क्रिस्पी (हाफ) | Chicken Crispy (Half)", "price": "Rs. 90", "desc": "Chicken Crispy half portion.", "tags": ["Non-Veg", "Starter", "Half"], "img": "img/chicken_crispy.jpeg"},
-  {"id": 8, "cat": "Starter", "name": "चिकन क्रिस्पी (फुल) | Chicken Crispy (Full)", "price": "Rs. 180", "desc": "Chicken Crispy full portion.", "tags": ["Non-Veg", "Starter", "Full"], "img": "img/chicken_crispy.jpeg"},
-  {"id": 9, "cat": "Starter", "name": "चिकन पकोडा (८ पीस) | Chicken Pakoda (8 Pcs)", "price": "Rs. 140", "desc": "Crispy Chicken Pakoda 8 pieces.", "tags": ["Non-Veg", "Starter"], "img": "img/chicken_pakoda.jpeg"},
+  {"id": 7, "cat": "Starter", "name": "चिकन क्रिस्पी (हाफ) | Chicken Crispy (Half)", "price": "Rs. 150", "desc": "Chicken Crispy half portion.", "tags": ["Non-Veg", "Starter", "Half"], "img": "img/chicken_crispy.jpeg"},
+  {"id": 8, "cat": "Starter", "name": "चिकन क्रिस्पी (फुल) | Chicken Crispy (Full)", "price": "Rs. 250", "desc": "Chicken Crispy full portion.", "tags": ["Non-Veg", "Starter", "Full"], "img": "img/chicken_crispy.jpeg"},
+  {"id": 9, "cat": "Starter", "name": "चिकन पकोडा (८ पीस) | Chicken Pakoda (8 Pcs)", "price": "Rs. 200", "desc": "Crispy Chicken Pakoda 8 pieces.", "tags": ["Non-Veg", "Starter"], "img": "img/chicken_pakoda.jpeg"},
   {"id": 10, "cat": "Starter", "name": "चिकन गार्लिक | Chicken Garlic", "price": "Rs. 180", "desc": "Chicken Garlic dry starter.", "tags": ["Non-Veg", "Starter"], "img": "img/chicken_garlic.jpeg"},
   {"id": 11, "cat": "Starter", "name": "चिकन ड्रॅगन | Chicken Dragon", "price": "Rs. 200", "desc": "Spicy Chicken Dragon.", "tags": ["Non-Veg", "Starter"], "img": "img/chicken_dragon.jpeg"},
   {"id": 12, "cat": "Starter", "name": "चिकन क्रंची | Chicken Crunchy", "price": "Rs. 180", "desc": "Crunchy fried chicken.", "tags": ["Non-Veg", "Starter"], "img": "img/chicken_crunchy.jpeg"},
   {"id": 13, "cat": "Starter", "name": "चिकन रोल | Chicken Roll", "price": "Rs. 300", "desc": "Special Chicken Roll platter.", "tags": ["Non-Veg", "Starter"], "img": "img/chicken_roll.jpeg"},
-  {"id": 14, "cat": "Starter", "name": "चिकन मंच्युरियन (हाफ) | Chicken Manchurian (Half)", "price": "Rs. 100", "desc": "Chicken Manchurian half portion.", "tags": ["Non-Veg", "Starter", "Chinese", "Half"], "img": "img/chicken_manchurian.jpeg"},
-  {"id": 15, "cat": "Starter", "name": "चिकन मंच्युरियन (फुल) | Chicken Manchurian (Full)", "price": "Rs. 190", "desc": "Chicken Manchurian full portion.", "tags": ["Non-Veg", "Starter", "Chinese", "Full"], "img": "img/chicken_manchurian.jpeg"},
+  {"id": 14, "cat": "Starter", "name": "चिकन मंच्युरियन (हाफ) | Chicken Manchurian (Half)", "price": "Rs. 120", "desc": "Chicken Manchurian half portion.", "tags": ["Non-Veg", "Starter", "Chinese", "Half"], "img": "img/chicken_manchurian.jpeg"},
+  {"id": 15, "cat": "Starter", "name": "चिकन मंच्युरियन (फुल) | Chicken Manchurian (Full)", "price": "Rs. 200", "desc": "Chicken Manchurian full portion.", "tags": ["Non-Veg", "Starter", "Chinese", "Full"], "img": "img/chicken_manchurian.jpeg"},
   {"id": 16, "cat": "Starter", "name": "चिकन ६५ | Chicken 65", "price": "Rs. 200", "desc": "Classic Chicken 65.", "tags": ["Non-Veg", "Starter"], "img": "img/chicken_65.jpeg"},
-  {"id": 17, "cat": "Starter", "name": "लिव्हर पेटा फ्राय (हाफ) | Liver Petha Fry (Half)", "price": "Rs. 130", "desc": "Liver Petha Fry half portion.", "tags": ["Non-Veg", "Starter", "Half"], "img": "img/liver_petha_fry.jpeg"},
-  {"id": 18, "cat": "Starter", "name": "लिव्हर पेटा फ्राय (फुल) | Liver Petha Fry (Full)", "price": "Rs. 250", "desc": "Liver Petha Fry full portion.", "tags": ["Non-Veg", "Starter", "Full"], "img": "img/liver_petha_fry.jpeg"},
+  {"id": 17, "cat": "Starter", "name": "लिव्हर पेटा फ्राय (हाफ) | Liver Petha Fry (Half)", "price": "Rs. 120", "desc": "Liver Petha Fry half portion.", "tags": ["Non-Veg", "Starter", "Half"], "img": "img/liver_petha_fry.jpeg"},
+  {"id": 18, "cat": "Starter", "name": "लिव्हर पेटा फ्राय (फुल) | Liver Petha Fry (Full)", "price": "Rs. 200", "desc": "Liver Petha Fry full portion.", "tags": ["Non-Veg", "Starter", "Full"], "img": "img/liver_petha_fry.jpeg"},
 
-  {"id": 19, "cat": "Soup", "name": "चिकन मंचाव सूप (हाफ) | Chicken Manchow Soup (Half)", "price": "Rs. 50", "desc": "Chicken Manchow Soup half.", "tags": ["Non-Veg", "Soup", "Half"], "img": "img/chicken_manchow_soup.jpeg"},
-  {"id": 20, "cat": "Soup", "name": "चिकन मंचाव सूप (फुल) | Chicken Manchow Soup (Full)", "price": "Rs. 80", "desc": "Chicken Manchow Soup full.", "tags": ["Non-Veg", "Soup", "Full"], "img": "img/chicken_manchow_soup.jpeg"},
+  {"id": 19, "cat": "Soup", "name": "चिकन मंचाव सूप (हाफ) | Chicken Manchow Soup (Half)", "price": "Rs. 60", "desc": "Chicken Manchow Soup half.", "tags": ["Non-Veg", "Soup", "Half"], "img": "img/chicken_manchow_soup.jpeg"},
+  {"id": 20, "cat": "Soup", "name": "चिकन मंचाव सूप (फुल) | Chicken Manchow Soup (Full)", "price": "Rs. 100", "desc": "Chicken Manchow Soup full.", "tags": ["Non-Veg", "Soup", "Full"], "img": "img/chicken_manchow_soup.jpeg"},
   {"id": 21, "cat": "Soup", "name": "चिकन शेजवान सूप (हाफ) | Chicken Schezwan Soup (Half)", "price": "Rs. 50", "desc": "Chicken Schezwan Soup half.", "tags": ["Non-Veg", "Soup", "Half"], "img": "img/chicken_schezwan_soup.jpeg"},
   {"id": 22, "cat": "Soup", "name": "चिकन शेजवान सूप (फुल) | Chicken Schezwan Soup (Full)", "price": "Rs. 90", "desc": "Chicken Schezwan Soup full.", "tags": ["Non-Veg", "Soup", "Full"], "img": "img/chicken_schezwan_soup.jpeg"},
   {"id": 23, "cat": "Soup", "name": "चिकन क्लिअर सूप (हाफ) | Chicken Clear Soup (Half)", "price": "Rs. 50", "desc": "Chicken Clear Soup half.", "tags": ["Non-Veg", "Soup", "Half"], "img": "img/chicken_clear_soup.jpeg"},
@@ -1386,31 +1292,31 @@ font-family:Arial,sans-serif;
   {"id": 27, "cat": "Soup", "name": "चिकन नूडल सूप (हाफ) | Chicken Noodle Soup (Half)", "price": "Rs. 60", "desc": "Chicken Noodle Soup half.", "tags": ["Non-Veg", "Soup", "Half"], "img": "img/chicken_noodle_soup.jpeg"},
   {"id": 28, "cat": "Soup", "name": "चिकन नूडल सूप (फुल) | Chicken Noodle Soup (Full)", "price": "Rs. 100", "desc": "Chicken Noodle Soup full.", "tags": ["Non-Veg", "Soup", "Full"], "img": "img/chicken_noodle_soup.jpeg"},
 
-  {"id": 29, "cat": "Biryani", "name": "चिकन दम बिर्याणी (हाफ) | Chicken Dum Biryani (Half)", "price": "Rs. 70", "desc": "Chicken Dum Biryani half portion.", "tags": ["Non-Veg", "Biryani", "Half"], "img": "img/chicken_dum_biryani.jpeg"},
+  {"id": 29, "cat": "Biryani", "name": "चिकन दम बिर्याणी (हाफ) | Chicken Dum Biryani (Half)", "price": "Rs. 80", "desc": "Chicken Dum Biryani half portion.", "tags": ["Non-Veg", "Biryani", "Half"], "img": "img/chicken_dum_biryani.jpeg"},
   {"id": 30, "cat": "Biryani", "name": "चिकन दम बिर्याणी (फुल) | Chicken Dum Biryani (Full)", "price": "Rs. 120", "desc": "Chicken Dum Biryani full portion.", "tags": ["Non-Veg", "Biryani", "Full"], "img": "img/chicken_dum_biryani.jpeg"},
   {"id": 31, "cat": "Biryani", "name": "चिकन टिक्का बिर्याणी | Chicken Tikka Biryani", "price": "As per Order", "desc": "Chicken Tikka Biryani per kg as per order.", "tags": ["Non-Veg", "Biryani", "Special"], "img": "img/chicken_tikka_biryani.jpeg"},
   {"id": 32, "cat": "Biryani", "name": "चिकन तंदूरी बिर्याणी | Chicken Tandoori Biryani", "price": "As per Order", "desc": "Chicken Tandoori Biryani per kg as per order.", "tags": ["Non-Veg", "Biryani", "Special"], "img": "img/chicken_tandoori_biryani.jpeg"},
   {"id": 33, "cat": "Biryani", "name": "चिकन सीक बिर्याणी | Chicken Seekh Biryani", "price": "As per Order", "desc": "Chicken Seekh Biryani per kg as per order.", "tags": ["Non-Veg", "Biryani", "Special"], "img": "img/chicken_seekh_biryani.jpeg"},
   {"id": 34, "cat": "Biryani", "name": "पनीर टिक्का बिर्याणी | Paneer Tikka Biryani", "price": "As per Order", "desc": "Paneer Tikka Biryani per kg as per order.", "tags": ["Veg", "Biryani", "Paneer"], "img": "img/paneer_tikka_biryani.jpeg"},
 
-  {"id": 35, "cat": "Non-Veg Rice", "name": "चिकन फ्राइड राईस (हाफ) | Chicken Fried Rice (Half)", "price": "Rs. 70", "desc": "Chicken Fried Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_fried_rice.jpeg"},
-  {"id": 36, "cat": "Non-Veg Rice", "name": "चिकन फ्राइड राईस (फुल) | Chicken Fried Rice (Full)", "price": "Rs. 120", "desc": "Chicken Fried Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_fried_rice.jpeg"},
-  {"id": 37, "cat": "Non-Veg Rice", "name": "एग फ्राइड राईस (हाफ) | Egg Fried Rice (Half)", "price": "Rs. 60", "desc": "Egg Fried Rice half portion.", "tags": ["Non-Veg", "Rice", "Egg", "Half"], "img": "img/egg_fried_rice.jpeg"},
-  {"id": 38, "cat": "Non-Veg Rice", "name": "एग फ्राइड राईस (फुल) | Egg Fried Rice (Full)", "price": "Rs. 100", "desc": "Egg Fried Rice full portion.", "tags": ["Non-Veg", "Rice", "Egg", "Full"], "img": "img/egg_fried_rice.jpeg"},
+  {"id": 35, "cat": "Non-Veg Rice", "name": "चिकन फ्राइड राईस (हाफ) | Chicken Fried Rice (Half)", "price": "Rs. 80", "desc": "Chicken Fried Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_fried_rice.jpeg"},
+  {"id": 36, "cat": "Non-Veg Rice", "name": "चिकन फ्राइड राईस (फुल) | Chicken Fried Rice (Full)", "price": "Rs. 130", "desc": "Chicken Fried Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_fried_rice.jpeg"},
+  {"id": 37, "cat": "Non-Veg Rice", "name": "एग फ्राइड राईस (हाफ) | Egg Fried Rice (Half)", "price": "Rs. 80", "desc": "Egg Fried Rice half portion.", "tags": ["Non-Veg", "Rice", "Egg", "Half"], "img": "img/egg_fried_rice.jpeg"},
+  {"id": 38, "cat": "Non-Veg Rice", "name": "एग फ्राइड राईस (फुल) | Egg Fried Rice (Full)", "price": "Rs. 130", "desc": "Egg Fried Rice full portion.", "tags": ["Non-Veg", "Rice", "Egg", "Full"], "img": "img/egg_fried_rice.jpeg"},
   {"id": 39, "cat": "Non-Veg Rice", "name": "चिकन शेजवान राईस (हाफ) | Chicken Schezwan Rice (Half)", "price": "Rs. 80", "desc": "Chicken Schezwan Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_schezwan_rice.jpeg"},
   {"id": 40, "cat": "Non-Veg Rice", "name": "चिकन शेजवान राईस (फुल) | Chicken Schezwan Rice (Full)", "price": "Rs. 130", "desc": "Chicken Schezwan Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_schezwan_rice.jpeg"},
-  {"id": 41, "cat": "Non-Veg Rice", "name": "चिकन ट्रिपल राईस (हाफ) | Chicken Triple Rice (Half)", "price": "Rs. 100", "desc": "Chicken Triple Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_triple_rice.jpeg"},
+  {"id": 41, "cat": "Non-Veg Rice", "name": "चिकन ट्रिपल राईस (हाफ) | Chicken Triple Rice (Half)", "price": "Rs. 120", "desc": "Chicken Triple Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_triple_rice.jpeg"},
   {"id": 42, "cat": "Non-Veg Rice", "name": "चिकन ट्रिपल राईस (फुल) | Chicken Triple Rice (Full)", "price": "Rs. 180", "desc": "Chicken Triple Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_triple_rice.jpeg"},
-  {"id": 43, "cat": "Non-Veg Rice", "name": "चिकन चिली राईस (हाफ) | Chicken Chilly Rice (Half)", "price": "Rs. 120", "desc": "Chicken Chilly Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_chilly_rice.jpeg"},
-  {"id": 44, "cat": "Non-Veg Rice", "name": "चिकन चिली राईस (फुल) | Chicken Chilly Rice (Full)", "price": "Rs. 200", "desc": "Chicken Chilly Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_chilly_rice.jpeg"},
-  {"id": 45, "cat": "Non-Veg Rice", "name": "चिकन सिंगापूर राईस (हाफ) | Chicken Singapore Rice (Half)", "price": "Rs. 80", "desc": "Chicken Singapore Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_singapore_rice.jpeg"},
-  {"id": 46, "cat": "Non-Veg Rice", "name": "चिकन सिंगापूर राईस (फुल) | Chicken Singapore Rice (Full)", "price": "Rs. 140", "desc": "Chicken Singapore Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_singapore_rice.jpeg"},
+  {"id": 43, "cat": "Non-Veg Rice", "name": "चिकन चिली राईस (हाफ) | Chicken Chilly Rice (Half)", "price": "Rs. 150", "desc": "Chicken Chilly Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_chilly_rice.jpeg"},
+  {"id": 44, "cat": "Non-Veg Rice", "name": "चिकन चिली राईस (फुल) | Chicken Chilly Rice (Full)", "price": "Rs. 250", "desc": "Chicken Chilly Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_chilly_rice.jpeg"},
+  {"id": 45, "cat": "Non-Veg Rice", "name": "चिकन सिंगापूर राईस (हाफ) | Chicken Singapore Rice (Half)", "price": "Rs. 120", "desc": "Chicken Singapore Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_singapore_rice.jpeg"},
+  {"id": 46, "cat": "Non-Veg Rice", "name": "चिकन सिंगापूर राईस (फुल) | Chicken Singapore Rice (Full)", "price": "Rs. 200", "desc": "Chicken Singapore Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_singapore_rice.jpeg"},
   {"id": 47, "cat": "Non-Veg Rice", "name": "चिकन चॉपर राईस (हाफ) | Chicken Chopper Rice (Half)", "price": "Rs. 180", "desc": "Chicken Chopper Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_chopper_rice.jpeg"},
   {"id": 48, "cat": "Non-Veg Rice", "name": "चिकन चॉपर राईस (फुल) | Chicken Chopper Rice (Full)", "price": "Rs. 250", "desc": "Chicken Chopper Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_chopper_rice.jpeg"},
-  {"id": 49, "cat": "Non-Veg Rice", "name": "चिकन मंच्युरियन राईस (हाफ) | Chicken Manchurian Rice (Half)", "price": "Rs. 90", "desc": "Chicken Manchurian Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_manchurian_rice.jpeg"},
-  {"id": 50, "cat": "Non-Veg Rice", "name": "चिकन मंच्युरियन राईस (फुल) | Chicken Manchurian Rice (Full)", "price": "Rs. 150", "desc": "Chicken Manchurian Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_manchurian_rice.jpeg"},
-  {"id": 51, "cat": "Non-Veg Rice", "name": "चिकन कॉम्बिनेशन राईस (हाफ) | Chicken Combination Rice (Half)", "price": "Rs. 80", "desc": "Chicken Combination Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_combination_rice.jpeg"},
-  {"id": 52, "cat": "Non-Veg Rice", "name": "चिकन कॉम्बिनेशन राईस (फुल) | Chicken Combination Rice (Full)", "price": "Rs. 130", "desc": "Chicken Combination Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_combination_rice.jpeg"},
+  {"id": 49, "cat": "Non-Veg Rice", "name": "चिकन मंच्युरियन राईस (हाफ) | Chicken Manchurian Rice (Half)", "price": "Rs. 80", "desc": "Chicken Manchurian Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_manchurian_rice.jpeg"},
+  {"id": 50, "cat": "Non-Veg Rice", "name": "चिकन मंच्युरियन राईस (फुल) | Chicken Manchurian Rice (Full)", "price": "Rs. 120", "desc": "Chicken Manchurian Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_manchurian_rice.jpeg"},
+  {"id": 51, "cat": "Non-Veg Rice", "name": "चिकन कॉम्बिनेशन राईस (हाफ) | Chicken Combination Rice (Half)", "price": "Rs. 90", "desc": "Chicken Combination Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_combination_rice.jpeg"},
+  {"id": 52, "cat": "Non-Veg Rice", "name": "चिकन कॉम्बिनेशन राईस (फुल) | Chicken Combination Rice (Full)", "price": "Rs. 140", "desc": "Chicken Combination Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_combination_rice.jpeg"},
   {"id": 53, "cat": "Non-Veg Rice", "name": "चिकन ड्रॅगन राईस (हाफ) | Chicken Dragon Rice (Half)", "price": "Rs. 110", "desc": "Chicken Dragon Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_dragon_rice.jpeg"},
   {"id": 54, "cat": "Non-Veg Rice", "name": "चिकन ड्रॅगन राईस (फुल) | Chicken Dragon Rice (Full)", "price": "Rs. 220", "desc": "Chicken Dragon Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_dragon_rice.jpeg"},
   {"id": 55, "cat": "Non-Veg Rice", "name": "चिकन डब्बा राईस | Chicken Dabba Rice", "price": "Rs. 160", "desc": "Chicken Dabba Rice special.", "tags": ["Non-Veg", "Rice"], "img": "img/chicken_dabba_rice.jpeg"},
@@ -1421,14 +1327,14 @@ font-family:Arial,sans-serif;
   {"id": 60, "cat": "Non-Veg Rice", "name": "चिकन गार्लिक फ्राइड राईस (हाफ) | Chicken Garlic Fried Rice (Half)", "price": "Rs. 80", "desc": "Chicken Garlic Fried Rice half portion.", "tags": ["Non-Veg", "Rice", "Half"], "img": "img/chicken_garlic_fried_rice.jpeg"},
   {"id": 61, "cat": "Non-Veg Rice", "name": "चिकन गार्लिक फ्राइड राईस (फुल) | Chicken Garlic Fried Rice (Full)", "price": "Rs. 120", "desc": "Chicken Garlic Fried Rice full portion.", "tags": ["Non-Veg", "Rice", "Full"], "img": "img/chicken_garlic_fried_rice.jpeg"},
 
-  {"id": 62, "cat": "Non-Veg Noodles", "name": "चिकन फ्राइड नूडल्स (हाफ) | Chicken Fried Noodles (Half)", "price": "Rs. 70", "desc": "Chicken Fried Noodles half portion.", "tags": ["Non-Veg", "Noodles", "Half"], "img": "img/chicken_fried_noodles.jpeg"},
-  {"id": 63, "cat": "Non-Veg Noodles", "name": "चिकन फ्राइड नूडल्स (फुल) | Chicken Fried Noodles (Full)", "price": "Rs. 120", "desc": "Chicken Fried Noodles full portion.", "tags": ["Non-Veg", "Noodles", "Full"], "img": "img/chicken_fried_noodles.jpeg"},
+  {"id": 62, "cat": "Non-Veg Noodles", "name": "चिकन फ्राइड नूडल्स (हाफ) | Chicken Fried Noodles (Half)", "price": "Rs. 80", "desc": "Chicken Fried Noodles half portion.", "tags": ["Non-Veg", "Noodles", "Half"], "img": "img/chicken_fried_noodles.jpeg"},
+  {"id": 63, "cat": "Non-Veg Noodles", "name": "चिकन फ्राइड नूडल्स (फुल) | Chicken Fried Noodles (Full)", "price": "Rs. 130", "desc": "Chicken Fried Noodles full portion.", "tags": ["Non-Veg", "Noodles", "Full"], "img": "img/chicken_fried_noodles.jpeg"},
   {"id": 64, "cat": "Non-Veg Noodles", "name": "एग फ्राइड नूडल्स (हाफ) | Egg Fried Noodles (Half)", "price": "Rs. 60", "desc": "Egg Fried Noodles half portion.", "tags": ["Non-Veg", "Noodles", "Egg", "Half"], "img": "img/egg_fried_noodles.jpeg"},
   {"id": 65, "cat": "Non-Veg Noodles", "name": "एग फ्राइड नूडल्स (फुल) | Egg Fried Noodles (Full)", "price": "Rs. 100", "desc": "Egg Fried Noodles full portion.", "tags": ["Non-Veg", "Noodles", "Egg", "Full"], "img": "img/egg_fried_noodles.jpeg"},
   {"id": 66, "cat": "Non-Veg Noodles", "name": "शेजवान नूडल्स (हाफ) | Schezwan Noodles (Half)", "price": "Rs. 80", "desc": "Schezwan Noodles half portion.", "tags": ["Non-Veg", "Noodles", "Half"], "img": "img/schezwan_noodles.jpeg"},
   {"id": 67, "cat": "Non-Veg Noodles", "name": "शेजवान नूडल्स (फुल) | Schezwan Noodles (Full)", "price": "Rs. 120", "desc": "Schezwan Noodles full portion.", "tags": ["Non-Veg", "Noodles", "Full"], "img": "img/schezwan_noodles.jpeg"},
-  {"id": 68, "cat": "Non-Veg Noodles", "name": "ट्रिपल नूडल्स (हाफ) | Triple Noodles (Half)", "price": "Rs. 100", "desc": "Triple Noodles half portion.", "tags": ["Non-Veg", "Noodles", "Half"], "img": "img/triple_noodles.jpeg"},
-  {"id": 69, "cat": "Non-Veg Noodles", "name": "ट्रिपल नूडल्स (फुल) | Triple Noodles (Full)", "price": "Rs. 180", "desc": "Triple Noodles full portion.", "tags": ["Non-Veg", "Noodles", "Full"], "img": "img/triple_noodles.jpeg"},
+  {"id": 68, "cat": "Non-Veg Noodles", "name": "ट्रिपल नूडल्स (हाफ) | Triple Noodles (Half)", "price": "Rs. 120", "desc": "Triple Noodles half portion.", "tags": ["Non-Veg", "Noodles", "Half"], "img": "img/triple_noodles.jpeg"},
+  {"id": 69, "cat": "Non-Veg Noodles", "name": "ट्रिपल नूडल्स (फुल) | Triple Noodles (Full)", "price": "Rs. 200", "desc": "Triple Noodles full portion.", "tags": ["Non-Veg", "Noodles", "Full"], "img": "img/triple_noodles.jpeg"},
   {"id": 70, "cat": "Non-Veg Noodles", "name": "सिंगापूर नूडल्स (हाफ) | Singapore Noodles (Half)", "price": "Rs. 80", "desc": "Singapore Noodles half portion.", "tags": ["Non-Veg", "Noodles", "Half"], "img": "img/singapore_noodles.jpeg"},
   {"id": 71, "cat": "Non-Veg Noodles", "name": "सिंगापूर नूडल्स (फुल) | Singapore Noodles (Full)", "price": "Rs. 140", "desc": "Singapore Noodles full portion.", "tags": ["Non-Veg", "Noodles", "Full"], "img": "img/singapore_noodles.jpeg"},
   {"id": 72, "cat": "Non-Veg Noodles", "name": "मंच्युरियन नूडल्स (हाफ) | Manchurian Noodles (Half)", "price": "Rs. 90", "desc": "Manchurian Noodles half portion.", "tags": ["Non-Veg", "Noodles", "Half"], "img": "img/manchurian_noodles.jpeg"},
@@ -1443,10 +1349,10 @@ font-family:Arial,sans-serif;
   {"id": 81, "cat": "Non-Veg Noodles", "name": "चिली नूडल्स (हाफ) | Chilly Noodles (Half)", "price": "Rs. 120", "desc": "Chilly Noodles half portion.", "tags": ["Non-Veg", "Noodles", "Half"], "img": "img/chilly_noodles.jpeg"},
   {"id": 82, "cat": "Non-Veg Noodles", "name": "चिली नूडल्स (फुल) | Chilly Noodles (Full)", "price": "Rs. 200", "desc": "Chilly Noodles full portion.", "tags": ["Non-Veg", "Noodles", "Full"], "img": "img/chilly_noodles.jpeg"},
 
-  {"id": 83, "cat": "Tandoori", "name": "रेड तंदूरी (हाफ) | Red Tandoori (Half)", "price": "Rs. 170", "desc": "Red Tandoori Chicken half portion.", "tags": ["Non-Veg", "Tandoori", "Half"], "img": "img/red_tandoori.jpeg"},
-  {"id": 84, "cat": "Tandoori", "name": "रेड तंदूरी (फुल) | Red Tandoori (Full)", "price": "Rs. 340", "desc": "Red Tandoori Chicken full portion.", "tags": ["Non-Veg", "Tandoori", "Full"], "img": "img/red_tandoori.jpeg"},
-  {"id": 85, "cat": "Tandoori", "name": "व्हाईट तंदूरी (हाफ) | White Tandoori (Half)", "price": "Rs. 200", "desc": "White Tandoori Chicken half portion.", "tags": ["Non-Veg", "Tandoori", "Half"], "img": "img/white_tandoori.jpeg"},
-  {"id": 86, "cat": "Tandoori", "name": "व्हाईट तंदूरी (फुल) | White Tandoori (Full)", "price": "Rs. 350", "desc": "White Tandoori Chicken full portion.", "tags": ["Non-Veg", "Tandoori", "Full"], "img": "img/white_tandoori.jpeg"},
+  {"id": 83, "cat": "Tandoori", "name": "रेड तंदूरी (हाफ) | Red Tandoori (Half)", "price": "Rs. 220", "desc": "Red Tandoori Chicken half portion.", "tags": ["Non-Veg", "Tandoori", "Half"], "img": "img/red_tandoori.jpeg"},
+  {"id": 84, "cat": "Tandoori", "name": "रेड तंदूरी (फुल) | Red Tandoori (Full)", "price": "Rs. 400", "desc": "Red Tandoori Chicken full portion.", "tags": ["Non-Veg", "Tandoori", "Full"], "img": "img/red_tandoori.jpeg"},
+  {"id": 85, "cat": "Tandoori", "name": "व्हाईट तंदूरी (हाफ) | White Tandoori (Half)", "price": "Rs. 220", "desc": "White Tandoori Chicken half portion.", "tags": ["Non-Veg", "Tandoori", "Half"], "img": "img/white_tandoori.jpeg"},
+  {"id": 86, "cat": "Tandoori", "name": "व्हाईट तंदूरी (फुल) | White Tandoori (Full)", "price": "Rs. 400", "desc": "White Tandoori Chicken full portion.", "tags": ["Non-Veg", "Tandoori", "Full"], "img": "img/white_tandoori.jpeg"},
   {"id": 87, "cat": "Tandoori", "name": "ग्रीन तंदूरी (हाफ) | Green Tandoori (Half)", "price": "Rs. 200", "desc": "Green Tandoori Chicken half portion.", "tags": ["Non-Veg", "Tandoori", "Half"], "img": "img/green_tandoori.jpeg"},
   {"id": 88, "cat": "Tandoori", "name": "ग्रीन तंदूरी (फुल) | Green Tandoori (Full)", "price": "Rs. 350", "desc": "Green Tandoori Chicken full portion.", "tags": ["Non-Veg", "Tandoori", "Full"], "img": "img/green_tandoori.jpeg"},
   {"id": 89, "cat": "Tandoori", "name": "चिकन कबाब (हाफ) | Chicken Kebab (Half)", "price": "Rs. 100", "desc": "Chicken Kebab half portion.", "tags": ["Non-Veg", "Tandoori", "Half"], "img": "img/chicken_kebab.jpeg"},
@@ -1456,7 +1362,7 @@ font-family:Arial,sans-serif;
   {"id": 93, "cat": "Tandoori", "name": "चिकन लॉलीपॉप तंदूर (हाफ) | Chicken Lollipop Tandoor (Half)", "price": "Rs. 100", "desc": "Tandoori Chicken Lollipop half portion.", "tags": ["Non-Veg", "Tandoori", "Half"], "img": "img/chicken_lollipop_tandoor.jpeg"},
   {"id": 94, "cat": "Tandoori", "name": "चिकन लॉलीपॉप तंदूर (फुल) | Chicken Lollipop Tandoor (Full)", "price": "Rs. 180", "desc": "Tandoori Chicken Lollipop full portion.", "tags": ["Non-Veg", "Tandoori", "Full"], "img": "img/chicken_lollipop_tandoor.jpeg"},
   {"id": 95, "cat": "Tandoori", "name": "टांगडी कबाब | Tangdi Kebab", "price": "Rs. 180", "desc": "Juicy Tangdi Kebab.", "tags": ["Non-Veg", "Tandoori"], "img": "img/tangdi_kebab.jpeg"},
-  {"id": 96, "cat": "Tandoori", "name": "चिकन सीक कबाब | Chicken Seekh Kebab", "price": "Rs. 200", "desc": "Minced Chicken Seekh Kebab.", "tags": ["Non-Veg", "Tandoori"], "img": "img/chicken_seekh_kebab.jpeg"},
+  {"id": 96, "cat": "Tandoori", "name": "चिकन सीक कबाब | Chicken Seekh Kebab", "price": "Rs. 150", "desc": "Minced Chicken Seekh Kebab.", "tags": ["Non-Veg", "Tandoori"], "img": "img/chicken_seekh_kebab.jpeg"},
 
   {"id": 97, "cat": "Veg Rice", "name": "व्हेज फ्राइड राईस (हाफ) | Veg Fried Rice (Half)", "price": "Rs. 60", "desc": "Veg Fried Rice half portion.", "tags": ["Veg", "Rice", "Half"], "img": "img/veg_fried_rice.jpeg"},
   {"id": 98, "cat": "Veg Rice", "name": "व्हेज फ्राइड राईस (फुल) | Veg Fried Rice (Full)", "price": "Rs. 100", "desc": "Veg Fried Rice full portion.", "tags": ["Veg", "Rice", "Full"], "img": "img/veg_fried_rice.jpeg"},
